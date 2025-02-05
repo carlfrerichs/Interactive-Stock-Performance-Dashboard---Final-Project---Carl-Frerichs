@@ -74,7 +74,7 @@ app.layout = html.Div(
             html.Div([
                 html.Label("Start Date:", style={"font-weight": "bold", "color": "#333"}),
                 dcc.Input(
-                    id="start-date", type="text", value="2022-01-01", 
+                    id="start-date", type="text", value="2024-01-01", 
                     placeholder="YYYY-MM-DD",
                     style={"width": "100%", "padding": "10px", "border": "1px solid #ccc", "border-radius": "4px"}
                 ),
@@ -83,7 +83,7 @@ app.layout = html.Div(
             html.Div([
                 html.Label("End Date:", style={"font-weight": "bold", "color": "#333"}),
                 dcc.Input(
-                    id="end-date", type="text", value="2023-01-01", 
+                    id="end-date", type="text", value="2025-01-01", 
                     placeholder="YYYY-MM-DD",
                     style={"width": "100%", "padding": "10px", "border": "1px solid #ccc", "border-radius": "4px"}
                 ),
